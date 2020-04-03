@@ -1,18 +1,22 @@
-/* estilização geral do site */
+/* general */
 
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 25px;
-  color:#fec63e;
+  color: #fec63e;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .btn:hover {
   color: #fff;
   border-color: #fff;
+}
+
+a {
+  color: #000;
 }
 
 /* header */
@@ -21,7 +25,7 @@
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -35,7 +39,7 @@ p {
 }
 
 .header-menu {
-  text-align: right;  
+  text-align: right;
 }
 
 .header-menu ul li {
@@ -45,7 +49,7 @@ p {
 }
 
 .header-menu ul li a {
-  font: 14px ;
+  font: 14px;
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
@@ -58,7 +62,7 @@ p {
   color: #fff;
 }
 
-/* introdução */
+/* introduction */
 
 .introduction {
   width: 100%;
@@ -88,7 +92,8 @@ p {
   font-style: italic;
 }
 
-.quote-external p:before, .quote-external p:after {
+.quote-external p:before,
+.quote-external p:after {
   content: "";
   display: block;
   width: 60px;
@@ -101,6 +106,78 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+/* products */
+
+.products {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+.products-list {
+  margin: 40px 0;
+}
+
+.product-icon {
+  background: #000;
+  padding: 20px;
+}
+
+.products-list h3 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.products-list h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 4px auto;
+}
+
+.products-list li {
+  background: #fec63e;
+}
+
+.products-list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.products-details {
+  padding-top: 40px;
+  clear: both;
+}
+
+.products-details p {
+  margin-bottom: 20px;
+}
+
+.products-details .btn:hover {
+  border-color: #000;
+  color: #000;
 }
