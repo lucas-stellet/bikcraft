@@ -129,6 +129,7 @@ p {
 
 .quote-external p {
   font-style: italic;
+  font-weight: bold;
 }
 
 .quote-external p:before,
@@ -273,5 +274,87 @@ p {
   height: 3px;
   background: #000;
   margin: 6px auto;
+}
+
+/* prefootage */
+
+.prefooter {
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  background-size: cover;
+  
+}
+
+.prefooter .quote-external {
+  max-width: 400px;
+  padding-top: 40px;
+}
+
+.prefooter .quote-external p{
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 6px 0 12px 0;
+}
+
+.footer-about {
+  padding-right: 40px;
+}
+
+.footer-about p {
+  font-weight: bold;
+}
+
+.footer-contact ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.footer-socials ul li {
+  display: inline-block;
+}
+
+.footer-socials ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.footer-socials ul li a:hover {
+  border-color: #fff;
+}
+
+.copyrights {
+  width: 100%;
+  padding: 20px;
+  background: #fec63e;
 }
 
