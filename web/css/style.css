@@ -19,6 +19,39 @@ a {
   color: #000;
 }
 
+.subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+.call {
+  padding-top: 40px;
+  clear: both;
+  text-align: center;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.call .btn:hover {
+  border-color: #000;
+  color: #000;
+}
+
 /* header */
 .body {
   font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +69,7 @@ p {
   padding: 15px 0;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .header-menu {
@@ -117,23 +151,6 @@ p {
   padding: 60px 0;
 }
 
-.subtitle {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.subtitle:after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: #000;
-  margin: 8px auto;
-}
-
 .products-list {
   margin: 40px 0;
 }
@@ -148,7 +165,7 @@ p {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 20px;
+  
 }
 
 .products-list h3:after {
@@ -168,16 +185,32 @@ p {
   padding: 10px 20px 20px 20px;
 }
 
-.products-details {
-  padding-top: 40px;
-  clear: both;
+/* portfolio */
+
+.portfolio {
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+  text-align: center;
 }
 
-.products-details p {
-  margin-bottom: 20px;
+.portfolio .subtitle {
+  color: #fec63e;
 }
 
-.products-details .btn:hover {
-  border-color: #000;
-  color: #000;
+.portfolio .subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 4px auto;
+}
+
+.portfolio .call p {
+  color: #fff;
+}
+
+.portfolio-list li:last-child {
+  margin-top: 20px;
 }
