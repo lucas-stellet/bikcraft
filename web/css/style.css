@@ -164,7 +164,6 @@ p {
   height: 160px;
   text-align: center;  
   padding-top: 30px;
-  background-size: cover;
   color: #fff;
 }
 
@@ -337,12 +336,11 @@ p {
   height: 220px;
   text-align: center;
   background-size: cover;
-  
+  padding-top: 40px;
 }
 
 .prefooter .quote-external {
   max-width: 400px;
-  padding-top: 40px;
 }
 
 .prefooter .quote-external p{
